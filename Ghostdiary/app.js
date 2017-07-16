@@ -19,9 +19,6 @@ App({
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
           });
-
-          var appid = 'wxc9ef9090cee1b0db';
-          var secret = 'e019ddd41cf91d8b0eff6ade6ef9975f';
         
           //调用request请求api转换登录凭证  
           //https://api.weixin.qq.com/sns/jscode2session?appid='+appid+'&secret='+secret+'&grant_type=authorization_code&js_code='+loginCode.code 
