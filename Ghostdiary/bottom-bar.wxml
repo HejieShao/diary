@@ -1,0 +1,18 @@
+<view class="bottom-banner">
+  <view class="bottom-container">
+    <navigator class="btn-item" url="../index/index" open-type="redirectTo">
+      <image class="item-icon home-icon" src="{{homeIcon}}"></image>
+      <view class="text">Home</view>
+    </navigator>
+    <navigator class="btn-item middle" url="../diary/diary" open-type="redirectTo">
+      <image class="item-icon diary-icon" src="{{diaryIcon}}"></image>
+      <view class="text">Diary</view>
+    </navigator>
+    <navigator class="btn-item" url="../calendar/calendar" open-type="redirectTo">
+      <image class="item-icon calendar-icon" src="{{calendarIcon}}"></image>
+      <view class="text">Calendar</view>
+    </navigator>
+  </view>
+</view>
+
+<loading wx:if="{{hiddenLoading}}">正在加载</loading>

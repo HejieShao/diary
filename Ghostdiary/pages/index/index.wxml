@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y="true" bindscrolltoupper="adminPage">
+	<view class="diary-desc-container">
+		<view class="image-container">
+			<image class="diary-image" mode="widthFix" src="../../images/index-image.jpg"></image>
+			<!-- <view class="image-title">生活不乏诗意</view> -->
+		</view>
+		<!-- <view class="diary-text">
+			<text>I'll have no trumpets, triumphs, trails of glory.\nIt seems the woman I've turned out to be 
+Is not the heroine of some grand story.\nBut I have learned to find the poetry
+In what my hands can touch, my eyes can see.\nThe pleasures of an ordinary life.\nBy Judith Viorst</text>
+		</view> -->
+	</view>
+</scroll-view>
+
+<navigator class="admin-view-btn" url="../adminnewdiary/adminnew" open-type="redirectTo">
+	<image class="admin-view-icon" src="../../images/viewhistory.png"></image>
+</navigator>
+
+<include src="../../bottom-bar.wxml" />

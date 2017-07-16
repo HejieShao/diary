@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y="true" enable-back-to-top="true">
+	<view class="top-bar">
+		<view bindtap="changeTypeSetting" class="icon-container" data-type="1"><image class="bar-icon" src="{{containerType1}}"></image></view>
+		<view bindtap="changeTypeSetting"  class="icon-container middle-container" data-type="2"><image class="bar-icon" src="{{containerType2}}"></image></view>
+		<view bindtap="changeTypeSetting" class="icon-container"  data-type="3"><image class="bar-icon" src="{{containerType3}}"></image></view>
+	</view>
+	<view class="edit-box {{classType}}">
+		<image class="normal-image" mode="widthFix" src="{{diaryImage}}"></image>
+		<view class="{{composingClassContainer}}" style="{{styleText}}">
+			<textarea class="edit-text {{textAlign}} {{composingTextarea}}" maxlength="100" placeholder="{{placeholderTextarea}}" bindblur="textBlurEvent" value="{{textareaValue}}"/>
+		</view>
+	</view>
+	<!-- <view class="align-container">
+		<view bindtap="textAlignEvent" data-classtype="text-align-left" class="align-text">居左</view>
+		<view bindtap="textAlignEvent" data-classtype="text-align-center" class="align-text middle-align">居中</view>
+		<view bindtap="textAlignEvent" data-classtype="text-align-right" class="align-text">居右</view>
+	</view> -->
+	<view class="button-container">
+		<button class="button-normal change-photo" bindtap="changeDiaryImage" type="default" hover-class="other-button-hover">更换照片</button>
+		<button class="button-normal" type="primary">保存</button>
+	</view>
+</scroll-view>
+
+<include src="../../bottom-bar.wxml" />

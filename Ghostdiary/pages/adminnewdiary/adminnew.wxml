@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y="true" enable-back-to-top="true">
+	<view class="top-bar">
+		管理员发布界面
+	</view>
+	<view class="button-container">
+		<button class="button-normal change-photo" bindtap="changeDiaryImage" type="default" hover-class="other-button-hover">更换照片</button>
+		<button class="button-normal" type="primary">保存</button>
+	</view>
+</scroll-view>
+
+<include src="../../bottom-bar.wxml" />

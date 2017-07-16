@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y="true" enable-back-to-top="true">
+	<view class="diary-date">— JAN.19 —</view>
+	<view class="diary-desc-container" bindtap="GotoEditDiaryPage">
+		<image class="diary-image" mode="widthFix" src="../../images/2.jpg"></image>
+		<view class="diary-text">
+			<text>简简单单测试\n我哈哈，呵呵，嘻嘻，唧唧</text>
+		</view>
+		<view class="maskdiv"></view>
+	</view>
+	<view class="diary-desc-container" bindtap="GotoEditDiaryPage">
+		<image class="diary-image" mode="widthFix" src="../../images/2.jpg"></image>
+		<view class="diary-text">
+			<text>山高水长，啦啦啦啦</text>
+		</view>
+		<view class="maskdiv"></view>
+	</view>
+	<view class="diary-date">— FEB.19 —</view>
+	<view class="diary-desc-container" bindtap="GotoEditDiaryPage">
+		<image class="diary-image" mode="widthFix" src="../../images/2.jpg"></image>
+		<view class="diary-text">
+			<text>山是高的，水是深的\n灯是亮的，门是关的，我还...</text>
+		</view>
+		<view class="maskdiv"></view>
+	</view>
+	<view class="diary-date">— MAR.19 —</view>
+	<view class="diary-desc-container" bindtap="GotoEditDiaryPage">
+		<image class="diary-image" mode="widthFix" src="../../images/2.jpg"></image>
+		<view class="diary-text">
+			<text>你想让我说什么呢，你个白痴\nzzzz.....吃shi吧！！！</text>
+		</view>
+		<view class="maskdiv"></view>
+	</view>
+	<view class="diary-desc-container" bindtap="GotoEditDiaryPage">
+		<image class="diary-image" mode="widthFix" src="../../images/2.jpg"></image>
+		<view class="diary-text">
+			<text>啥都没说，只是路过</text>
+		</view>
+		<view class="maskdiv"></view>
+	</view>
+</scroll-view>
+
+<include src="../../bottom-bar.wxml" />

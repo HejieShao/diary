@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/diary/diary",
+    "pages/calendar/calendar",
+    "pages/newdiary/new",
+    "pages/adminnewdiary/adminnew"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "诗语日记",
+    "navigationBarTextStyle":"black"
+  }
+}
